@@ -29,7 +29,7 @@ DEFAULT_DAG_args={
     'retries':1,
     'retry_delay':timedelta(minutes=5),
     'project_id':project_id,
-    'scheduled_interval':"30 2 * * *"
+    'scheduled_interval':"30 12 * * *"
 }
 with DAG("esc_etl",default_args=DEFAULT_DAG_args) as dag:
 
