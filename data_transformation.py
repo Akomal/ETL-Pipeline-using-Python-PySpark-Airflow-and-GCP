@@ -4,26 +4,28 @@
 import pyspark
 
 
-# In[101]:
+
 
 
 from pyspark import SparkContext
 from pyspark import SQLContext
 
 
-# In[102]:
+
 
 
 from pyspark.conf import SparkConf
 from pyspark.sql.session import SparkSession
 
 
-# In[103]:
+
 
 
 import pandas as pd
 sc=SparkContext()
 spark= SQLContext(sc)
+file_path=os.environ.get('file_path')
+output_path=os.environ.get('output_path')
 esc_data= spark.read.option("multiline","true").json(file_path)
 
 
