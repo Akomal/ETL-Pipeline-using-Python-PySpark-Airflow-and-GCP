@@ -8,10 +8,12 @@ The pipeline was built using **Python, Pyspark, Airflow, BigQuery API, Google Da
 <h2>How it works</h2>
 
 - Eurovision songs data from kaggle is ingested to GCS bucket using python.
-- Data is then transformed to perform data cleaning operations using pyspark on Dataproc cluster
+- Data is then transformed to perform data cleaning operations using pyspark on Dataproc cluster.
 - The transformed data is then loaded to Bigquery table for analysis.
+- The whole pipeline is orchestrated using Airflow which runs on Google Composer environment.
 
 <h2>Architectural Diagram</h2>
 
+![](architectural_diagram.png)
 
 <h2>Results</h2>
