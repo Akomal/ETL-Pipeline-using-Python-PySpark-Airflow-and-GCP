@@ -3,7 +3,7 @@
 This is an implementation of an end-to-end batch data pipeline which runs daily. It ingests the historical data of eurovision song competition, 
 loads that data to Google BigQuery and finally produces insights via a dashboard.
 
-The pipeline was built using Python, Pyspark, Airflow, BigQuery API, Google Dataproc, Google Data Composer
+The pipeline was built using ***Python, Pyspark, Airflow, BigQuery API, Google Dataproc, Google Data Composer.**
 
 <h2>How it works</h2>
 
