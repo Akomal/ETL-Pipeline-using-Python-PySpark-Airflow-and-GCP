@@ -17,3 +17,5 @@ The pipeline was built using **Python, Pyspark, Airflow, BigQuery API, Google Da
 ![](architectural_diagram.png)
 
 <h2>Results</h2>
+
+![](results_airflow.png)
