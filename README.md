@@ -1,4 +1,4 @@
-<h2>Batch Data Pipeline on GCP</h2>
+<h2>Eurovision Data Pipeline using GCP</h2>
 
 This is an implementation of an end-to-end batch data pipeline that runs daily. It ingests the historical data of the Eurovision song competition, 
 loads that data to Google BigQuery and finally produces insights via a dashboard.
