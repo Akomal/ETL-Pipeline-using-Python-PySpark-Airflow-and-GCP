@@ -51,6 +51,7 @@ with DAG("esc_etl",default_args=DEFAULT_DAG_args) as dag:
         write_disposition="WRITE_APPEND",
         max_bad_records=0
     )
+    
     delete_cluster = DataprocDeleteClusterOperator(
 
         task_id="delete-cluster",
