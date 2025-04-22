@@ -11,6 +11,7 @@ The pipeline was built using **Python, Pyspark, Airflow, BigQuery API, Google Da
 - Data is then transformed to perform data cleaning operations using Pyspark on the Dataproc cluster.
 - The transformed data is then loaded into a Bigquery table for analysis.
 - The whole pipeline is orchestrated using Airflow which runs on the Google Composer environment. When data is loaded to the Bigquery  Dataproc cluster and all intermediate files will be deleted to save cost.
+  
 
 <h2>Architectural Diagram</h2>
 
